@@ -1,0 +1,7 @@
+{
+    "menu": [
+        ["Home", "/"],
+        ["Services", "services"],
+        ["Order Here", "order"]
+    ]
+}

@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h3 #{title}
+    form(id='form', method='post', action='/submitted')
+        p Name: 
+            input(type='text' name='name')
+        p Age: 
+            input(type='text' name='age')
+        p
+            input(type='submit', value='Done!')

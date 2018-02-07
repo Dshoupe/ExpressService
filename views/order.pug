@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h3 #{title} With This
+    form(id='form', method='post', action='/submitted')
+        p Order Detail 1: 
+            input(type='text' name='order_detail_1')
+        p Order Detail 2: 
+            input(type='text' name='order_detail_2')
+        p
+            input(type='submit', value='Done!')

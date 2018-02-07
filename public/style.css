@@ -1,0 +1,48 @@
+html {
+    background: linear-gradient(to bottom right, #88D, #55D);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#transition_test {
+    font-size: 1em;
+    height: 1.1em;
+    width: auto;
+    background-color: #99D;
+    transition: font-size 5s, height 4s, width 5s;
+}
+
+#transition_test:hover {
+    font-size: 50px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.menu_item {
+    display: inline-block;
+    border: 1px solid #FFF;
+    width: 80px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+    background: #55F;
+    text-align: center;
+    transition: height 2s, width 1s;
+}
+
+.menu_item:hover {
+    height: 40px;
+    width: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
