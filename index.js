@@ -33,7 +33,8 @@ app.get('/services', function (req, res) {
 app.get('/order', function (req, res) {
     res.render('order', {
         title: 'Order',
-        "config": config
+        "config": config,
+        "serviceCategories": serviceCategories
     })
 });
 

@@ -4,13 +4,20 @@ block content
     h3 #{title} With This
     form(id='form', method='post', action='/submitted')
         p Name: 
-            input(type='text' name='name')
+            input(type='text' name='name' required)
         p Address: 
-            input(type='text' name='address')
+            input(type='text' name='address' required)
         p Phone: 
-            input(type='text' name='phone')
+            input(type='text' name='phone' required)
         //- This return nothing or "on"
-        p CheckBox Test:
-            input(type='CheckBox' name='services')
+        each category in serviceCategories.categories
+            b
+                p #{category[0]}
+            ul(class='service')
+            each service in category[1]
+                li
+                    p #{service[0]} $#{service[2]}
+                        input(type='CheckBox' name='services' required)
+                    hr
         p
             input(type='submit', value='Done!')
