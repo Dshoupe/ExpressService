@@ -17,7 +17,7 @@ var urlencodedParser = bodyParser.urlencoded({
 
 app.get('/', function (req, res) {
     res.render('title', {
-        title: 'IRS (Internal Revenue Service)',
+        title: 'D-Day (Drink Day)',
         "config": config
     })
 });
@@ -39,6 +39,8 @@ app.get('/order', function (req, res) {
 });
 
 app.post('/submitted', urlencodedParser, function (req, res) {
+    var checkedServices = [];
+    
     var servicesTest = req.body.services;
     var order = {
         name: req.body.name,
