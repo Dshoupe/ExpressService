@@ -17,6 +17,6 @@ block content
                 each service in category[1]
                     li
                         p #{service[0]} $#{service[2]}
-                            input(type='CheckBox' name='#{service[0]}' required)
+                            input(type='CheckBox' name=service[0])
         p
             input(type='submit', value='Done!')
