@@ -2,12 +2,18 @@ var express = require('express');
 var pug = require('pug');
 var path = require('path');
 var config = require('./menu');
+var serviceCategories = require('./categories');
+var bodyParser = require('body-parser');
 
 var app = express();
 
 app.set('view engine', 'pug');
 app.set('views', `${__dirname}/views`);
 app.use(express.static(path.join(`${__dirname}/public`)));
+
+var urlencodedParser = bodyParser.urlencoded({
+    extended: true
+});
 
 app.get('/', function (req, res) {
     res.render('title', {
@@ -19,7 +25,8 @@ app.get('/', function (req, res) {
 app.get('/services', function (req, res) {
     res.render('services', {
         title: 'Services',
-        "config": config
+        "config": config,
+        "serviceCategories": serviceCategories
     })
 });
 
@@ -30,10 +37,18 @@ app.get('/order', function (req, res) {
     })
 });
 
-app.post('/submitted', function(req, res){
+app.post('/submitted', urlencodedParser, function (req, res) {
+    var servicesTest = req.body.services;
+    var order = {
+        name: req.body.name,
+        address: req.body.address,
+        phone: req.body.phone,
+        servicesTest: servicesTest
+    }
     res.render('submitted', {
         title: 'Thanks for submitting!',
-        "config": config
+        "config": config,
+        order: order
     })
 });
 

@@ -3,9 +3,14 @@ extends layout
 block content
     h3 #{title} With This
     form(id='form', method='post', action='/submitted')
-        p Order Detail 1: 
-            input(type='text' name='order_detail_1')
-        p Order Detail 2: 
-            input(type='text' name='order_detail_2')
+        p Name: 
+            input(type='text' name='name')
+        p Address: 
+            input(type='text' name='address')
+        p Phone: 
+            input(type='text' name='phone')
+        //- This return nothing or "on"
+        p CheckBox Test:
+            input(type='CheckBox' name='services')
         p
             input(type='submit', value='Done!')
