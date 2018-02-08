@@ -1,6 +1,6 @@
 {
     "categories": [
-        ["category1", [
+        ["Milkshakes", [
             ["Service1", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
             ["Service2", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
             ["Service3", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
@@ -10,25 +10,25 @@
             ["Service7", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
             ["Service8", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"]
         ]],
-        ["category2", [
-            ["Service1", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service2", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service3", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service4", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service5", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service6", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service7", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service8", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"]
+        ["Smoothies", [
+            ["Service9", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service10", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service11", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service12", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service13", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service14", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service15", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service16", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"]
         ]],
-        ["category3", [
-            ["Service1", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service2", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service3", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service4", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service5", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service6", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service7", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
-            ["Service8", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"]
+        ["Alcohol", [
+            ["Service17", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service18", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service19", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service20", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service21", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service22", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service23", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"],
+            ["Service24", "Description", 10.00, "http://valuebound.com/sites/default/files/2016-04/how-to-define-your-own-services-drupal-8.jpeg"]
         ]]
     ]
 }
