@@ -39,6 +39,11 @@ html {
     width: 100px;
 }
 
+.service{
+    border: 1px solid black;
+    
+}
+
 li {
     list-style: none;
 }
