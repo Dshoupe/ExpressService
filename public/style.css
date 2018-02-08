@@ -1,7 +1,7 @@
 html {
     background: linear-gradient(to bottom right, #88D, #55D);
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 #transition_test {
