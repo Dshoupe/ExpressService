@@ -3,10 +3,10 @@ extends layout
 block content
     each category in serviceCategories.categories
         h1 #{category[0]}
-        each service in category[1]
-            div
-                img(src=service[3] height=50)
-                p #{service[0]}
-                p #{service[1]}
-                p $#{service[2]}
-                hr
+        ul(class='service')
+            each service in category[1]
+                li
+                    img(src=service[3] height=50)
+                    p #{service[0]}
+                    p #{service[1]}
+                    p $#{service[2]}

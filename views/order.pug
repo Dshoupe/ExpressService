@@ -14,9 +14,9 @@ block content
             b
                 p #{category[0]}
             ul(class='service')
-            each service in category[1]
-                li
-                    p #{service[0]} $#{service[2]}
-                        input(type='CheckBox' name='services' required)
+                each service in category[1]
+                    li
+                        p #{service[0]} - $#{service[2]}
+                            input(type='CheckBox' name=service[0])
         p
             input(type='submit', value='Done!')
