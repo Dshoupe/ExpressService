@@ -1,5 +1,6 @@
 html {
     background: linear-gradient(to bottom right, #88D, #55D);
+    background-attachment: fixed;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
