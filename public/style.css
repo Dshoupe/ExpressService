@@ -5,6 +5,11 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 #transition_test {
     font-size: 1em;
     height: 1.1em;
@@ -27,21 +32,31 @@ html {
     border: 1px solid #FFF;
     width: 80px;
     height: 25px;
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 20px 26px;
     background: #55F;
     text-align: center;
-    transition: height 2s, width 1s;
+    text-decoration: none;
 }
 
 .menu_item:hover {
-    height: 40px;
-    width: 100px;
+    background: #57E;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #55F;
 }
 
 .service{
     border: 1px solid black;
     padding: 5px;
+}
+
+.navbar a li {
+    float: left;
 }
 
 li {

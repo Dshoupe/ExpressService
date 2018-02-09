@@ -5,8 +5,10 @@ html
         link(href='style.css' rel='stylesheet')
         link(href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet')
     body
-        h2 #{title}
-        ul
+        ul(class='navbar')
+            a
+                div(class='menu_item')
+                    li(id=homebutton) imagehere
             each item in config.menu
                 a(href=item[1])
                     div(class='menu_item')
