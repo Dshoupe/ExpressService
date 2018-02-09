@@ -47,8 +47,9 @@ app.post('/submitted', urlencodedParser, function (req, res) {
             var test2 = test[x];
             for (var k = 0; k < 8; k++) {
                 var test3 = test2[k];
-                var final = test3[0];
+                var final = test3[1];
                 serviceNames.push(final);
+                console.log(final);
             }
         }
     }
@@ -58,12 +59,9 @@ app.post('/submitted', urlencodedParser, function (req, res) {
         // console.log(eval(`req.body.${serviceNames[i]}`));
         var serviceNameHolder = serviceNames[i];
         var service = `req.body.${serviceNameHolder}`
-        if(eval(`req.body.${serviceNameHolder}`) != null){
+        if(eval(service) != null){
             eval('checkedServices.push(`${i+1}:${eval(service)}`)');
         }
-    }
-    for (var i = 0; i < checkedServices.length; i++) {
-        console.log(checkedServices[i]);
     }
     var order = {
         name: req.body.name,
@@ -77,10 +75,7 @@ app.post('/submitted', urlencodedParser, function (req, res) {
         ["Phone", order.phone],
         ["ServicesOrdered", checkedServices]
     ];
-    fs.writeFile('./public/order.txt', orderToSave, function (err) {
-        if (err) throw err;
-        console.log('It\'s saved! in same location.');
-    });
+    fs.writeFile('./public/order.txt', orderToSave);
     res.render('submitted', {
         title: 'Thanks for submitting!',
         "config": config,
