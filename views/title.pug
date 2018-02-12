@@ -3,3 +3,29 @@ extends layout
 block content
     div(class='main_page')
         p Welcome to the Drink Day website! Here we sell quality drinks of all different flavors. We specialize in milkshakes, smoothies, and alcoholic beverages.
+        script(src="slideshow.js")
+        div(class="slideshow-container")
+            div(class="mySlides fade" style="display:block")
+                div(class="numbertext") 1 / 3
+                img(src="https://cdn.designcrowd.com/blog/2016/May/beverage-day-2016/GR_BeverageDay_Banner_828x300.png" height="300px" style="width:98%")
+                div(class="text")
+                    b Good Drinks
+            
+            div(class="mySlides fade")
+                div(class="numbertext") 2 / 3
+                img(src="http://www.beer-dday.com/images/logo.gif" style="width:98%" height="300px")
+                div(class="text")
+                    b It will explode your taste buds RIGHT OFF
+            
+            div(class="mySlides fade")
+                div(class="numbertext") 3 / 3
+                img(src="http://www.goodasgold.com/assets/images/our_coffee_services/Cafe_Essentials/Classic_Smoothies_Banner.jpg" height="300px" style="width:98%")
+                div(class="text")
+                    b Great Service
+            
+            a(class="prev" onclick="plusSlides(-1)") &#10094;
+            a(class="next" onclick="plusSlides(1)") &#10095;
+            div(style="text-align:center")
+                span(class="dot" onclick="currentSlide(1)")
+                span(class="dot" onclick="currentSlide(2)")
+                span(class="dot" onclick="currentSlide(3)")

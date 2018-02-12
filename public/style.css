@@ -5,12 +5,15 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
-form, h3, h1{
+form,
+h3,
+h1 {
     margin-left: 10px;
 }
 
@@ -40,7 +43,7 @@ footer {
     font-size: 16px;
 }
 
-img{
+img {
     border-radius: 10px;
     box-shadow: 5px 5px;
     padding-left: 5px;
@@ -56,7 +59,8 @@ img{
     margin-left: -12px;
 }
 
-.drink_name, .drink_type {
+.drink_name,
+.drink_type {
     font-family: 'Baloo', cursive;
     font-size: 20px;
 }
@@ -79,7 +83,7 @@ img{
 
 .form_done {
     border: 1px solid black;
-    background: linear-gradient(#B7D9FF,#8CCCD6);
+    background: linear-gradient(#B7D9FF, #8CCCD6);
     border-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
@@ -100,22 +104,22 @@ img{
 .main_page {
     border: 1px solid black;
     border-radius: 10px;
-    background: linear-gradient(#B7D9FF,#8CCCD6);
+    background: linear-gradient(#B7D9FF, #8CCCD6);
     margin: 10px;
 }
 
 .input_form {
     border: 1px solid black;
     border-radius: 10px;
-    background: linear-gradient(#B7D9FF,#8CCCD6);
+    background: linear-gradient(#B7D9FF, #8CCCD6);
     margin: 10px;
 }
 
-.service{
+.service {
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
-    background: linear-gradient(#B7D9FF,#8CCCD6);
+    background: linear-gradient(#B7D9FF, #8CCCD6);
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -137,14 +141,14 @@ img{
 }
 
 .button:hover {
-    background:linear-gradient(#6ebbff 5%, #3075c9 100%);
-    background-color:#6ebbff;
+    background: linear-gradient(#6ebbff 5%, #3075c9 100%);
+    background-color: #6ebbff;
     box-shadow: 0 0 10px #5BD2FF;
 }
 
 .button:active {
-    position:relative;
-    top:1px;
+    position: relative;
+    top: 1px;
 }
 
 .navbar a li {
@@ -162,4 +166,101 @@ a {
 
 p {
     margin-left: 5px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #000;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
