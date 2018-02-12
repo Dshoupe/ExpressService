@@ -2,7 +2,8 @@ extends layout
 
 block content
     h2 #{title}
-    p Name: #{order.name}
-    p Address: #{order.address}
-    p Phone: #{order.phone}
-    p #{order.servicesTest}
+    div(class='form_done')
+        p Name: #{order.name}
+        p Address: #{order.address}
+        p Phone: #{order.phone}
+        p #{order.servicesTest}

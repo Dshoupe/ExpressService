@@ -10,6 +10,19 @@ html, body {
     padding: 0;
 }
 
+form, h3, h1{
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: 'Baloo', cursive;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 #transition_test {
     font-size: 1em;
     height: 1.1em;
@@ -22,18 +35,39 @@ html, body {
     font-size: 50px;
 }
 
-#footer {
-    position: absolute;
-    bottom: 0;
+footer {
+    padding-bottom: 4px;
+    font-size: 16px;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.navbar img {
+    border-radius: 0px;
+    box-shadow: none;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+.drink_name, .drink_type {
+    font-family: 'Baloo', cursive;
+    font-size: 20px;
 }
 
 .menu_item {
     display: inline-block;
-    border: 1px solid #FFF;
-    width: 80px;
+    width: auto;
     height: 25px;
     margin: 0px;
     padding: 20px 26px;
+    padding-left: 25px;
     background: #55F;
     text-align: center;
     text-decoration: none;
@@ -43,6 +77,19 @@ html, body {
     background: #57E;
 }
 
+.form_done {
+    border: 1px solid black;
+    background: linear-gradient(#B7D9FF,#8CCCD6);
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icon {
+    width: 20px;
+    align-content: center;
+}
+
 .navbar {
     margin: 0;
     padding: 0;
@@ -50,9 +97,54 @@ html, body {
     background-color: #55F;
 }
 
+.main_page {
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(#B7D9FF,#8CCCD6);
+    margin: 10px;
+}
+
+.input_form {
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(#B7D9FF,#8CCCD6);
+    margin: 10px;
+}
+
 .service{
     border: 1px solid black;
+    border-radius: 5px;
     padding: 5px;
+    background: linear-gradient(#B7D9FF,#8CCCD6);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button {
+    box-shadow: inset 0px 1px 1px -50px #0273a8;
+    background: #3075c9;
+    background-color: #3075c9;
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 18px;
+    text-decoration: none;
+    text-shadow: 0px 0px 2px #000000;
+}
+
+.button:hover {
+    background:linear-gradient(#6ebbff 5%, #3075c9 100%);
+    background-color:#6ebbff;
+    box-shadow: 0 0 10px #5BD2FF;
+}
+
+.button:active {
+    position:relative;
+    top:1px;
 }
 
 .navbar a li {
@@ -66,4 +158,8 @@ li {
 a {
     text-decoration: none;
     color: #FFF;
+}
+
+p {
+    margin-left: 5px;
 }
